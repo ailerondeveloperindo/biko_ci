@@ -11,13 +11,7 @@ NodeJS 16.13.0 +
 
 ## Working on this Project
 Webpack has this watch feature which if enabled, watch over any changes made on any of the project files and rebuild the bundle. Enable this feature by running this command on project main directory,
-> npm run watch
-
-Alternatively, You can do this as well
-> npx webpack --watch --config webpack.config-dev.js
-
-Run the Local Development Server by using this command
-> php spark serve (More on https://codeigniter4.github.io/userguide/installation/running.html)
+> npm run dev
 
 ## Building this Project
 Run this following command on project directory
