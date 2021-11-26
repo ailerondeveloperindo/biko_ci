@@ -1,0 +1,35 @@
+{
+  "name": "biko_ci",
+  "version": "1.0.0",
+  "description": "Biko Management CodeIgniter Version",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "watch": "webpack --watch --config webpack.config-dev.js",
+    "build": "webpack --config webpack.config-prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "private": true,
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "file-loader": "^6.2.0",
+    "postcss": "^8.3.11",
+    "postcss-loader": "^6.2.0",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.3",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.5.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.10.2",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.7.1",
+    "webpack-merge": "^5.8.0"
+  }
+}
