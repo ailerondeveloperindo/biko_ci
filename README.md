@@ -1,4 +1,5 @@
 # Biko (Business Kompanion)
+This documentation is still incomplete
 ## Development Requirements
 In order to have this project built, server need to fullfil these following requirements.
 ```
