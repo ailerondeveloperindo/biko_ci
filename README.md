@@ -1,5 +1,9 @@
 # Biko (Business Kompanion)
 This documentation is still incomplete
+
+### Wireframes / Mockups
+Homepage Wireframe - https://www.figma.com/file/OA6G8yOhU2OTczKSMbbjBM/Homepage-Wireframe?node-id=0%3A1
+
 ## Development Requirements
 In order to have this project built, server need to fullfil these following requirements.
 ```
@@ -24,4 +28,4 @@ https://codeigniter4.github.io/userguide/installation/running.html?highlight=dep
 
 
 ##
-Made with ❤ by Aileron / Farid
+Copyright (c) Ahmad Farid
