@@ -1,0 +1,13 @@
+// _variable.scss Contains Bootstrap Variable Overrides and custom Variables
+
+$font-family-base: 'Raleway', sans-serif;
+$font-size-base: 1rem;
+
+// Bootstrap Display Heading
+$display-font-weight: 700;
+
+// Bootstrap Lead
+$lead-font-size: $font-size-base * 1.5;
+
+// Use this on Display-[font size] class to alter it's font-family
+$display-font-family: 'Yanone Kaffeesatz', sans-serif;

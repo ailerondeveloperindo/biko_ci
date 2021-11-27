@@ -1,0 +1,10 @@
+// Named this way to avoid conflict with bootstrap's own carousel class
+
+.biko-carousel{
+    width: 100%;
+    background-color: white;
+    border-radius: 0.75rem;
+    &--img{
+
+    }
+}

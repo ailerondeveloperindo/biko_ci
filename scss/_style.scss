@@ -5,9 +5,6 @@ body{
 }
 
 
-// Use this on Display-[font size] class to alter it's font-family
-$display-font-family: 'Yanone Kaffeesatz', sans-serif;
-
 // Overwrites Default Bootstrap's Default class
 @each $display, $font-size in $display-font-sizes {
     .display-#{$display} {
@@ -17,90 +14,3 @@ $display-font-family: 'Yanone Kaffeesatz', sans-serif;
       line-height: $display-line-height;
     }
   }
-
-
-// Information section on Homepage
-.section{
-  display: flex;
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-
-  // Center element of .section with this
-  &--float-center{
-    align-items: center;
-    justify-content: center;
-  }
-
-  /* Instead of having the section fit the height of window, 
-  We will have them fit it's content instead */
-  &--wrap-element
-  {
-    height: fit-content;
-  }
-
-  // BG with primary color taken from bootstrap's $theme-colors map 
-  // This map can be found here../node_modules/bootstrap/scss/variables
-  &__half-bg
-  {
-     position: absolute;
-     z-index: -10;
-     background-color: map-get($map: $theme-colors, $key: "primary");
-     width: 100vw;
-     height: 75%;
-     top: 25%;
-  }
-
-}
-
-// Wrap Content Together
-.box-content{
-  width: fit-content;
-  height: fit-content;
-}
-
-// BG-Color for lower footer
-$lower-footer-bg-color: #ECECEC;
-
-// Footer
-.footer{
-  display: flex;
-  width: 100vw;
-  flex-direction: column;
-
-  &--upper{
-
-  }
-
-  &--lower{
-      background-color: $lower-footer-bg-color;
-  }
-
-}
-
-.daftar-fitur-bg{
-  width: 100vw;
-  height: 75vw;
-}
-
-.info-card{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: fit-content;
-  background-color: white;
-  box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.15);
-
-  &__img{
-    width: 119px;
-    height: 119px;
-  }
-
-  &__title{
-    width: 275px;
-    height: 70px;
-
-  }
-}
-
-

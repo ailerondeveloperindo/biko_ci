@@ -1,0 +1,20 @@
+// Custom Breakpoints
+@include media-breakpoint-up(xl) { 
+    .box-content{
+      padding: 0 8.125rem 0 8.125rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) { 
+    .box-content{
+      padding: 0 4.8675rem 0 4.8675rem;
+    }
+  }
+
+
+  .daftar-fitur-bg{
+    width: 100vw;
+    height: 75vw;
+  }
+  
+  

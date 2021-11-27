@@ -1,0 +1,18 @@
+// BG-Color for lower footer
+$lower-footer-bg-color: #ECECEC;
+
+// Footer
+.footer{
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+
+  &--upper{
+
+  }
+
+  &--lower{
+      background-color: $lower-footer-bg-color;
+  }
+
+}

@@ -5,7 +5,9 @@
     <title>Aplikasi Manajemen UMKM Paling Lengkap - Biko</title>
 </head>
 <body>
-    <div class="container p-0 m-0">
+    <div class="container mw-100 m-0 p-0">
+
+        <!-- Head Section -->
         <section class="section section--float-center bg-primary">
             <div class="box-content text-center text-white pb-5">
                 <h1 class="display-3"> Satu Aplikasi Untuk Kemajuan Bisnis </h1>
@@ -13,9 +15,11 @@
                 <div class="btn btn-secondary"> Coba Sekarang </div>
             </div>
         </section>
+        <!-- End of Head Section -->
 
+        <!-- Kenalan Sama Biko Section -->
         <section class="section section--float-center">
-            <div class="box-content text-center px-3 text-primary">
+            <div class="box-content w-100">
                 <div class="row d-flex flex-row">
                     <div class="col-4 d-flex flex-column">
                         <h1 class="display-4"> Kenalan Sama Biko</h1>
@@ -24,9 +28,11 @@
                 </div>
             </div>
         </section>
+        <!-- End of Kenalan Sama Biko Section -->
 
+        <!-- Satu Platform Banyak Solusi Section -->
         <section class="section section--float-center">
-            <div class="box-content text-center px-3 text-primary">
+            <div class="box-content w-100">
                 <div class="row d-flex flex-row-reverse">
                     <div class="col-4 d-flex flex-column">
                         <h1 class="display-4"> Satu Platform Banyak Solusi</h1>
@@ -35,9 +41,11 @@
                 </div>
             </div>
         </section>
-        
+        <!-- End of Satu Platform Banyak Solusi Section -->
+
+        <!-- Bantu Pekerjaan anda dengan ai Section -->
         <section class="section section--float-center">
-            <div class="box-content text-center px-3 text-primary">
+            <div class="box-content w-100">
                 <div class="row">
                     <div class="col-4 d-flex flex-column">
                         <h1 class="display-4"> Bantu Pekerjaan anda Dengan AI</h1>
@@ -46,41 +54,42 @@
                 </div>
             </div>
         </section>
+        <!-- End of Bantu Pekerjaan anda dengan ai Section -->
 
         <!-- Daftar Fitur Section -->
         <section class="section">
-            <div class="d-flex flex-wrap justify-content-between px-5">
-                <div class="info-card px-1 py-4">
+            <div class="box-content box-content--gap flex-wrap justify-content-between">
+                <div class="info-card px-2 py-4">
                     <div class="info-card__img mb-4 bg-secondary"></div>
                     <div class="info-card__title text-center">
                         <h5>Pantau Kegiatan Usaha dari berbagai Perangkat</h5>
                     </div>
                 </div>
-                <div class="info-card px-1 py-4">
+                <div class="info-card px-2 py-4">
                     <div class="info-card__img mb-4 bg-secondary"></div>
                     <div class="info-card__title text-center">
                         <h5>Kontrol Kegiatan Usaha dengan mudah melalui Biko</h5>
                     </div>
                 </div>
-                <div class="info-card px-1 py-4">
+                <div class="info-card px-2 py-4">
                     <div class="info-card__img mb-4 bg-secondary"></div>
                     <div class="info-card__title text-center">
                         <h5>Bekerja Tanpa Khawatir dengan Kasir Online dan Offline</h5>
                     </div>
                 </div>
-                <div class="info-card px-1 py-4">
+                <div class="info-card px-2 py-4">
                     <div class="info-card__img mb-4 bg-secondary"></div>
                     <div class="info-card__title text-center">
                         <h5>Mengatur Karyawan Lebih Mudah</h5>
                     </div>
                 </div>
-                <div class="info-card px-1 py-4">
+                <div class="info-card px-2 py-4">
                     <div class="info-card__img mb-4 bg-secondary"></div>
                     <div class="info-card__title text-center">
                         <h5>Sistem Poin untuk kepuasaan pelanggan anda</h5>
                     </div>
                 </div>
-                <div class="info-card px-1 py-4">
+                <div class="info-card px-2 py-4">
                     <div class="info-card__img mb-4 bg-secondary"></div>
                     <div class="info-card__title text-center">
                         <h5>Fitur AI yang mengefisiensikan waktu anda</h5>
@@ -94,6 +103,17 @@
         <!-- Testimoni Section -->
         <section class="section bg-primary">
     
+        <div class="box-content w-100">
+            <div class="display-4 text-white">Apa Kata Mereka Tentang Biko</div>
+            <div class="biko-carousel mt-5 p-4">
+                <div class="row">
+                    <div class="col-4">
+                        <p class="lead">Biko terbukti memudahkan saya dalam memperhintungkan pemasukan dan pengeluaran bisnis saya</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         </section>
         <!-- End Of Testimoni Section -->
 

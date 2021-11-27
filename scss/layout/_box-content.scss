@@ -1,0 +1,16 @@
+// Wrap Content Together
+/* .box-content class fits it's content by default
+ You can adjust it to fit it's parent width as well */
+ .box-content{
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+  
+  
+    // Used exclusively for info-card collection
+    &--gap{
+      display: flex;
+      gap: 15px;
+    }
+  
+  }

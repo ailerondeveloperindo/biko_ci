@@ -1,0 +1,34 @@
+// Information section on Homepage
+.section{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+  
+    // Center element of .section with this
+    &--float-center{
+      align-items: center;
+      justify-content: center;
+    }
+  
+    /* Instead of having the section fit the height of window, 
+    We will have them fit it's content instead */
+    &--wrap-element
+    {
+      height: fit-content;
+    }
+  
+    // BG with primary color taken from bootstrap's $theme-colors map 
+    // This map can be found here../node_modules/bootstrap/scss/variables
+    &__half-bg
+    {
+       position: absolute;
+       z-index: -10;
+       background-color: map-get($map: $theme-colors, $key: "primary");
+       width: 100vw;
+       height: 75%;
+       top: 25%;
+    }
+  
+  }

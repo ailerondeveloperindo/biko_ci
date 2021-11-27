@@ -4,8 +4,7 @@
 @import "../node_modules/bootstrap/scss/functions";
 
 // Contains Default Bootstrap Variable overrides
-@import "variable";
-
+@import "abstract/variable";
 
 // 3. Include remainder of required Bootstrap stylesheets
 @import "../node_modules/bootstrap/scss/variables";
@@ -24,4 +23,19 @@
 // Bootstrap Component Overwrites, Custom component and Variables.
 @import "style";
 
+// Load Components
+@import "component/biko-carousel";
+@import "component/info-card";
+
+// Load from layout 
+@import "layout/box-content";
+
+// Load Pages
+@import "pages/homepage";
+@import "pages/loginpage";
+
+// Load Sections
+@import "sections/footer";
+@import "sections/hero";
+@import "sections/section";
 
