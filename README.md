@@ -1,4 +1,6 @@
-# Biko (Business Kompanion)
+# ![Biko Logo](https://raw.githubusercontent.com/ailerondeveloperindo/biko_ci/198df74f1b40f8f2cf503c6b067844675bfedbca/public/assets/img/logo.svg)
+### (Business Companion)
+
 This documentation is still incomplete
 
 ### Directory Structure
