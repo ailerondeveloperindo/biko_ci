@@ -56,7 +56,7 @@ Run this following command on project directory
 > npm run build
 
 ## Hosting on Web Server
-More Information on that here,
+Please refer to this guide for installation on either apache or nginx web server,
 https://codeigniter4.github.io/userguide/installation/running.html?highlight=deploy
 ### Docker
 
