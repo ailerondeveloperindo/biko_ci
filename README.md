@@ -1,6 +1,40 @@
 # Biko (Business Kompanion)
 This documentation is still incomplete
 
+### Directory Structure
+```
+--- App
+   |
+   |--- Config
+   |--- Controllers
+   |--- Database
+   |--- Filters
+   |--- Helpers
+   |--- Language
+   |--- Libraries
+   |--- Models
+   |--- ThirdParty
+   |--- Views
+   
+--- Scss
+   |--- abstract
+   |--- component
+   |--- layout
+   |--- pages
+   |--- sections
+   |--- _app.scss (index.scss uses this as entry point to load the rest of scss files)
+   |--- _style.scss
+   
+--- public
+   |--- assets
+       |--- js
+           |--- biko.bundle.js (Webpack Bundle)
+           
+--- src
+   |--- index.js (Webpack Entry Point)
+   |--- index.scss (index.js loads this)
+```
+
 ### Wireframes / Mockups
 Homepage Wireframe - https://www.figma.com/file/OA6G8yOhU2OTczKSMbbjBM/Homepage-Wireframe?node-id=0%3A1
 
